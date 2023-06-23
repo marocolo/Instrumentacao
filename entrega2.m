@@ -1,7 +1,7 @@
 clc; close all;
 clc; clear; close;
 a = arduino('COM6','Uno');  % Declaração do objeto arduino com a porta e modelo
-imu = mpu6050(a);
+imu = mpu6050(a);           % Leitura da imu
 ams=100;                    % Quantidade de amostras
 g=9.8106;                   % Valor da aceleração da gravidade usado
 
